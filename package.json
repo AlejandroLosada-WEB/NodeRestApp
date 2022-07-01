@@ -1,0 +1,46 @@
+{
+  "name": "feg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "jest": "node node_modules/jest/bin/jest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-validator": "^6.14.2",
+    "fs": "0.0.1-security",
+    "helmet": "^4.4.1",
+    "imagemin": "^7.0.1",
+    "imagemin-gm": "^2.0.2",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "jest": "^28.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.4",
+    "mongoose": "^5.11.15",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.7",
+    "password-hash": "^1.2.2",
+    "resize-img": "^2.0.0"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "./frontend"
+    ]
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^3.0.2",
+    "supertest": "^6.2.3"
+  }
+}
